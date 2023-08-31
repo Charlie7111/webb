@@ -1,0 +1,47 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Style the sections with a border and padding */
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
